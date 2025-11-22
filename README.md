@@ -16,7 +16,7 @@ Criar um diagrama dimensional com base em um diagrama relacional pré-existente,
 
 A solução foi desenvolvida seguindo a metodologia Star Schema, resultando na seguinte estrutura:
 
-![Diagrama Star Schema](desafio_criando_mod_star_schema.png)
+![Diagrama Star Schema](desafio_criando_modelo_star_schema.png)
 
 ### 1. Tabela Fato: `fato_disciplina_professor`
 Esta é a tabela central que armazena as métricas e as chaves estrangeiras (Surrogate Keys - SK) para as dimensões. Cada linha representa uma disciplina ministrada por um professor em um determinado período.
